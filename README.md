@@ -4,17 +4,17 @@
 ## Overview
 >a Python program reporting tool that prints out reports based on the data in the database. The program runs from the command line. It does not take any user input. Instead, it uses the psycopg2 module to connect to the database, SQL queries to analyze the log data, print out the answers to three questions.
 
-----
+
 ## Set Up
 
-####1. Install VirtualBox [here](https://www.virtualbox.org/wiki/Downloads
+#### 1. Install VirtualBox [here](https://www.virtualbox.org/wiki/Downloads
 
-####2. Install Vagrant [here](https://www.vagrantup.com/downloads.html)
+#### 2. Install Vagrant [here](https://www.vagrantup.com/downloads.html)
 
-####3. Download the VM configuration.
+#### 3. Download the VM configuration.
 * Download and unzip this [file](https://d17h27t6h515a5.cloudfront.net/topher/2017/August/59822701_fsnd-virtual-machine/fsnd-virtual-machine.zip)
 
-####4. Launch the Virtual Machine:
+#### 4. Launch the Virtual Machine:
 From your terminal, inside the vagrant subdirectory, run the command
 
     vagrant up
@@ -48,5 +48,5 @@ The reporting tool answers the following questions.
 
 
 ----
-##Source
+## Source
 * Udacity - Full Stack Developer Nanodegree
