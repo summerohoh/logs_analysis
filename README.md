@@ -1,6 +1,6 @@
 # Logs Analysis
 
-----
+
 ## Overview
 >a Python program reporting tool that prints out reports based on the data in the database. The program runs from the command line. It does not take any user input. Instead, it uses the psycopg2 module to connect to the database, SQL queries to analyze the log data, print out the answers to three questions.
 
@@ -35,7 +35,7 @@ cd into the vagrant directory and use the command
 
     python3 logs_analysis.py
 
-----
+
 ## Report
 
 The reporting tool answers the following questions.
@@ -47,6 +47,5 @@ The reporting tool answers the following questions.
 * **3. On which days did more than 1% of requests lead to errors?**  The log table includes a column status that indicates the HTTP status code that the news site sent to the user's browser. (Refer back to this lesson if you want to review the idea of HTTP status codes.)
 
 
-----
 ## Source
 * Udacity - Full Stack Developer Nanodegree
