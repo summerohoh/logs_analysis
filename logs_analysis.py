@@ -1,7 +1,6 @@
 # "Database code" for Logs Analysis
 import psycopg2
 import datetime
-# import bleach
 
 DBNAME = "news"
 
@@ -49,14 +48,16 @@ def get_query_result(query):
 
 def print_views(result):
     for r in result:
-        print ('\t' + str(r[0]) + ' -- ' + str(r[1]) + ' views')
+        print('\t' + str(r[0]) + ' -- ' + str(r[1]) + ' views')
 
 
 def print_error(result):
     for r in result:
         dateOfError = datetime.datetime.strptime(str(r[0]), '%Y-%m-%d')
-        print ('\t' + dateOfError.strftime('%B %d, %Y') +
-        ' -- ' + "{0:0.1f}".format(r[1]) + '% error')
+        print(
+              '\t' + dateOfError.strftime('%B %d, %Y') +
+              ' -- ' + "{0:0.1f}".format(r[1]) + '% error'
+             )
 
 
 print("1. What are the most popular three articles of all time?")
