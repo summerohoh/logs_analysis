@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 # "Database code" for Logs Analysis
 import psycopg2
 import datetime
